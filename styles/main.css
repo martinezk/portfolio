@@ -1,0 +1,9 @@
+#border-wrapper {
+	display: table-cell;
+    border: 10px solid #fffab9;
+    background: white;
+    position: relative;
+}
+.border-color {
+	
+}
