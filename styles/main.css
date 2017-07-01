@@ -1,9 +1,40 @@
-#border-wrapper {
-	display: table-cell;
-    border: 10px solid #fffab9;
-    background: white;
-    position: relative;
+body {
+	font-family: 'Josefin Slab', serif;
 }
-.border-color {
-	
+#border-wrapper {
+    border: 10px solid #f7b288;
+    background: white;
+	width: 100%;
+}
+header {
+	height: 200px;
+	padding-top: 80px;
+}
+.top-nav {
+	float: right;
+	position: absolute;
+	text-align: right;
+	top: 90px;
+	right: 0;
+}
+ul li {
+	display:inline-block;
+	font-size: 20px;
+	padding: 0 30px;
+
+}
+.center {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.main {
+	height: 600px;
+}
+footer {
+	height: 200px;
+}
+h1 {
+	font-size: 25px;
 }
