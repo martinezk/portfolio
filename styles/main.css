@@ -17,6 +17,10 @@ header {
 	top: 90px;
 	right: 0;
 }
+img {
+	width: 600px;
+	margin-bottom: 30px;
+}
 ul li {
 	display:inline-block;
 	font-size: 20px;
@@ -30,11 +34,16 @@ ul li {
 	position: relative;
 }
 .main {
-	height: 600px;
+	text-align: center;
+	height: 1200px;
 }
 footer {
 	height: 200px;
 }
 h1 {
 	font-size: 25px;
+}
+h2 {
+	padding-left: 32px;
+	padding-top: 5px;
 }
