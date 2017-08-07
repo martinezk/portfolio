@@ -96,3 +96,11 @@ footer {
 	font-size: 25px;
 	margin-top: 55px;
 }
+.contact{
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.contact li{
+	font-size: 25px;
+}
