@@ -54,6 +54,7 @@ a:hover {
 }
 img {
 	width: 600px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 .top-nav ul li {
@@ -69,7 +70,7 @@ img {
 }
 .main {
 	text-align: center;
-	height: 2250px;
+	height: 2335px;
 }
 
 footer {
@@ -105,13 +106,24 @@ footer {
 	width: 700px;
 }
 .portfolio h1{
-	font-size: 25px;
+	font-size: 27px;
 	margin-top: 55px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
-.portfolio h2, .portfolio h3{
+
+.portfolio h2{
 	font-size: 20px;
 	margin: 10px;
+}
+.portfolio h3{
+	font-size: 18px;
+	margin: 10px;
+}
+.portfolio a {
+	font-size: 20px;
+	padding: 10px;
+	color: #f7b288;
+	font-weight: bold;
 }
 .contact h1{
 	margin: 10px;
