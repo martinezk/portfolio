@@ -2,7 +2,7 @@ body {
 	font-family: 'Josefin Slab', serif;
 }
 #border-wrapper {
-	border: 10px solid #f7b288;
+	border: 20px solid #f7b288;
 	background: white;
 	width: 100%;
 }
@@ -87,6 +87,8 @@ footer {
 .about h1 {
 	font-size: 25px;
 	margin-top: 55px;
+	text-decoration: underline;
+	text-decoration-color: #f7b288;
 }
 .about h2 {
 	font-size: 20px;
@@ -109,6 +111,9 @@ footer {
 	font-size: 27px;
 	margin-top: 55px;
 	margin-bottom: 30px;
+	padding-top: 15px;
+	text-decoration: underline;
+	text-decoration-color: #f7b288;
 }
 
 .portfolio h2{
@@ -128,6 +133,8 @@ footer {
 .contact h1{
 	margin: 10px;
     font-size: 23px;
+	text-decoration: underline;
+	text-decoration-color: #f7b288;
 }
 .contact li{
 	display:inline-block;
@@ -136,4 +143,10 @@ footer {
 }
 .contact a{
 	text-decoration: underline;
+}
+.contact i{
+	font-size: 40px;
+}
+#email{
+	font-size: 19px;
 }
